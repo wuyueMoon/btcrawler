@@ -1,6 +1,6 @@
 package com.hxs.bt.util;
 
-import cn.hutool.core.date.DateUtil;
+
 import org.apache.commons.lang3.time.DateUtils;
 
 import java.text.SimpleDateFormat;
@@ -28,11 +28,11 @@ public class DateHelper {
     }
 
     public static void main(String[] args) {
-        System.out.println(DateHelper.getTableNameSuffixTomorrow());
-        Date date = DateUtil.date(System.currentTimeMillis());
-        String today = DateUtil.format(date,"yyyyMMdd");
-        System.out.println(today);
-        String tomorrow = DateUtil.format(DateUtil.tomorrow(),"yyyyMMdd");
-        System.out.println(tomorrow);
+//        System.out.println(DateHelper.getTableNameSuffixTomorrow());
+//        Date date = DateUtil.date(System.currentTimeMillis());
+//        String today = DateUtil.format(date,"yyyyMMdd");
+//        System.out.println(today);
+//        String tomorrow = DateUtil.format(DateUtil.tomorrow(),"yyyyMMdd");
+//        System.out.println(tomorrow);
     }
 }

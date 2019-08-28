@@ -1,6 +1,6 @@
 package com.hxs.bt.disruptor.handler;
 
-import cn.hutool.core.util.HexUtil;
+
 import com.hxs.bt.common.manager.NodeManager;
 import com.hxs.bt.config.Config;
 import com.hxs.bt.disruptor.event.KrpcEvent;

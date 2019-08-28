@@ -1,6 +1,6 @@
 package com.hxs.bt.controller;
 
-import com.hxs.bt.common.Monitor;
+
 import com.hxs.bt.common.manager.NodeManager;
 import com.hxs.bt.config.Config;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,8 +28,8 @@ public class MonitorController {
         return nodeManager.getNODE_QUEUE().size();
     }
 
-    @GetMapping("/magnetNum")
-    public long getMagnetNum() {
-        return Monitor.getMagnetNum();
-    }
+//    @GetMapping("/magnetNum")
+//    public long getMagnetNum() {
+//        return Monitor.getMagnetNum();
+//    }
 }
